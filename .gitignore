@@ -1,0 +1,4 @@
+
+bundleV2/*.mod_bundle
+.vscode/settings.json
+*.lua.processed

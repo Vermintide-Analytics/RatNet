@@ -1,0 +1,18 @@
+
+events = [
+	"Notify_Bass"
+	"Notify_Conga"
+	"Notify_DarkSouls"
+	"Notify_Dings"
+	"Notify_Exalt"
+	"Notify_HelloThere"
+	"Notify_Orchestra"
+	"Notify_Pusfume"
+	"Notify_Saltzpyre"
+	"Notify_StarTrek"
+	"Notify_StringsPizzi"
+	"Notify_Terraria"
+	"Notify_Torgue"
+	"Notify_VVVG"
+	"Notify_Wololo"
+]

@@ -1,0 +1,9 @@
+
+win32 = {
+	banks = [
+		"wwise/mods/RatNet/DERP_SFX"
+	]
+	metadata = "wwise/mods/RatNet/project"
+	streams = [
+	]
+}

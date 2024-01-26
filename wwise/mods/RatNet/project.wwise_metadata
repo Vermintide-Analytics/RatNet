@@ -1,0 +1,142 @@
+
+aux_buses = [
+]
+banks = {
+	DERP_SFX = {
+		events = [
+			"Notify_Bass"
+			"Notify_Conga"
+			"Notify_DarkSouls"
+			"Notify_Dings"
+			"Notify_Exalt"
+			"Notify_HelloThere"
+			"Notify_Orchestra"
+			"Notify_Pusfume"
+			"Notify_Saltzpyre"
+			"Notify_StarTrek"
+			"Notify_StringsPizzi"
+			"Notify_Terraria"
+			"Notify_Torgue"
+			"Notify_VVVG"
+			"Notify_Wololo"
+		]
+	}
+}
+buses = [
+	"Master Audio Bus"
+]
+events = {
+	Notify_Bass = {
+		attenuation_max = 0
+		duration_max = 0.784
+		duration_min = 0.784
+		duration_type = "OneShot"
+		positioning = "2D"
+	}
+	Notify_Conga = {
+		attenuation_max = 0
+		duration_max = 0.81
+		duration_min = 0.81
+		duration_type = "OneShot"
+		positioning = "2D"
+	}
+	Notify_DarkSouls = {
+		attenuation_max = 0
+		duration_max = 1.835
+		duration_min = 1.835
+		duration_type = "OneShot"
+		positioning = "2D"
+	}
+	Notify_Dings = {
+		attenuation_max = 0
+		duration_max = 1.321
+		duration_min = 1.321
+		duration_type = "OneShot"
+		positioning = "2D"
+	}
+	Notify_Exalt = {
+		attenuation_max = 0
+		duration_max = 2.194
+		duration_min = 2.194
+		duration_type = "OneShot"
+		positioning = "2D"
+	}
+	Notify_HelloThere = {
+		attenuation_max = 0
+		duration_max = 0.792
+		duration_min = 0.792
+		duration_type = "OneShot"
+		positioning = "2D"
+	}
+	Notify_Orchestra = {
+		attenuation_max = 0
+		duration_max = 0.836
+		duration_min = 0.836
+		duration_type = "OneShot"
+		positioning = "2D"
+	}
+	Notify_Pusfume = {
+		attenuation_max = 0
+		duration_max = 3.229
+		duration_min = 4.193
+		duration_type = "OneShot"
+		positioning = "2D"
+	}
+	Notify_Saltzpyre = {
+		attenuation_max = 0
+		duration_max = 2.459
+		duration_min = 5.454
+		duration_type = "OneShot"
+		positioning = "2D"
+	}
+	Notify_StarTrek = {
+		attenuation_max = 0
+		duration_max = 3.135
+		duration_min = 3.135
+		duration_type = "OneShot"
+		positioning = "2D"
+	}
+	Notify_StringsPizzi = {
+		attenuation_max = 0
+		duration_max = 0.929
+		duration_min = 0.929
+		duration_type = "OneShot"
+		positioning = "2D"
+	}
+	Notify_Terraria = {
+		attenuation_max = 0
+		duration_max = 1.881
+		duration_min = 1.881
+		duration_type = "OneShot"
+		positioning = "2D"
+	}
+	Notify_Torgue = {
+		attenuation_max = 0
+		duration_max = 2.090
+		duration_min = 2.090
+		duration_type = "OneShot"
+		positioning = "2D"
+	}
+	Notify_VVVG = {
+		attenuation_max = 0
+		duration_max = 1.656
+		duration_min = 1.656
+		duration_type = "OneShot"
+		positioning = "2D"
+	}
+	Notify_Wololo = {
+		attenuation_max = 0
+		duration_max = 1.515
+		duration_min = 1.515
+		duration_type = "OneShot"
+		positioning = "2D"
+	}
+}
+parameters = [
+]
+state_groups = {
+}
+switch_groups = {
+}
+triggers = [
+]

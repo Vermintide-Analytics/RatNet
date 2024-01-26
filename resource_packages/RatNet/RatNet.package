@@ -1,0 +1,15 @@
+mod = [
+	"RatNet"
+]
+
+package = [
+	"resource_packages/RatNet/RatNet"
+]
+
+lua = [
+	"scripts/mods/RatNet/*"
+]
+
+wwise_dep = [
+	"wwise/mods/RatNet/*"
+]
