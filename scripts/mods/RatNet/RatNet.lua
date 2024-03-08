@@ -2,10 +2,10 @@ local mod = get_mod("RatNet")
 
 Wwise.load_bank("wwise/mods/RatNet/DERP_SFX")
 
-mod.version = "1.0.1"
+mod.version = "1.0.2"
 mod:echo("RatNet version: " .. mod.version)
 
-local BASE_ENDPOINT = "http://52.54.79.134/"
+local BASE_ENDPOINT = "http://52.54.79.134:81/"
 --local BASE_ENDPOINT = "http://localhost:5000/"
 local HEARTBEAT_INTERVAL_SECONDS = 5
 
@@ -495,7 +495,7 @@ local get_lobby_details = function()
 	local lobby_id = ""
 	local is_public = false
 	
-	local network_max_players = Managers.mechanism:max_members()
+	local network_max_players = Managers.mechanism._lobby.max_members
 	local max_players = math.min(max_player_override, network_max_players)
 	
 	local heroes_party = our_heroes_party()
